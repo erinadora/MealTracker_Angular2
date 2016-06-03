@@ -5,11 +5,11 @@ import { Meal } from './meal.model';
   selector: 'meal-display',
   inputs: ['meal'],
   template: `
-    <h2 (click)="select()">{{ meal.mealName }}</h2>
-    <div *ngIf="detail" class="day">
-      <p id="description">{{ meal.description }}</p>
-      <p id="cal">Cal: {{ meal.calories }}</p>
-    </div>
+  <h2 (click)="select()">{{ meal.mealName }}</h2>
+  <div *ngIf="detail" class='day'>
+    <p id="description">{{ meal.description }}</p>
+    <p id="cal"> {{ meal.calories }} <strong>cal</strong></p>
+  </div>
   `
 })
 export class MealComponent {
