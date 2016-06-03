@@ -1,0 +1,94 @@
+body {
+  margin: auto;
+  font-family: 'helvetica neue';
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #454545;
+  line-height: 130%;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 100;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+h2:active {
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+#description {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#cal {
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 10px;
+  color: red;
+}
+
+select, input {
+  letter-spacing: 2px;
+  border: none!important;
+  background-color: none!important;
+}
+
+input {
+  border-bottom: 1px solid #454545!important;
+  border-radius: 0px!important;
+  padding: 15px;
+  width: 300px;
+}
+
+button {
+  border: none!important;
+  background-color:#B3FCF8;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 8px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+textarea:focus, input:focus, .uneditable-input:focus {
+  box-shadow: 0px!important;
+  border-bottom: 1px dotted #ccc!important;
+  outline: 0 none;
+}
+
+.meal-form {
+  display: block!important;
+}
+
+
+.selected h2 {
+  border-left: 1px solid #454545;
+  padding: 10px;
+  width: 200px;
+
+}
+
+#edit {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.day {
+  border-bottom: 1px solid #ccc;
+}
