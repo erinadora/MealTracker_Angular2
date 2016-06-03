@@ -32,13 +32,13 @@ h2 {
   font-weight: 200;
   font-family: futura;
   margin: 20px auto;
-  color: #B1F2EA;
+  color: #454545;
 }
 
 h2:before {
   content:"\00bb";
   padding-right: 5px;
-  color: #FFDBA8;
+  color: #B1F2EA;
 }
 
 h2:hover {
