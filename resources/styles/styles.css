@@ -1,0 +1,158 @@
+body {
+  margin: auto;
+  font-family: 'helvetica neue';
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #454545;
+  line-height: 130%;
+  width: 1000px;
+  cursor: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto!important;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  background-color: #FFFAFB;
+  border-radius: 2px;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 100;
+  margin-top: 0px!important;
+}
+
+h2 {
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: futura;
+  margin: 20px auto;
+  color: #454545;
+}
+
+h2:before {
+  content:"\00bb";
+  padding-right: 5px;
+  color: #B1F2EA;
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+h2:focus {
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#description {
+  font-size: 11px;
+  padding-left: 10px;
+  font-family: menlo;
+  text-transform: uppercase;
+}
+
+#cal {
+  font-weight: 300;
+  font-size: 11px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: red;
+  color: #fff;
+  font-family: menlo;
+  text-transform: uppercase;
+  width: 80px;
+}
+
+select, input {
+  letter-spacing: 3px;
+  border: none!important;
+  background-color: none!important;
+  box-shadow: none!important;
+  outline: 0!important;
+  font-family: menlo;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+select {
+  text-align: center;
+  background-color: #fff!important;
+}
+
+input {
+  border-bottom: 1px solid #454545!important;
+  border-radius: 0px!important;
+  padding: 15px;
+  width: 300px;
+  background-color: #FFFAFB;
+}
+
+button {
+  border: 1px solid #C9A8FF;
+  background-color: #fff;
+  color: #C9A8FF;
+  font-family: menlo;
+  font-size: 30px;
+  border-radius: 2px;
+  font-weight: 400;
+  padding: 8px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: crosshair;
+}
+
+button:hover {
+  color: #B1F2EA;
+  border: none!important;
+}
+
+button:focus {
+  border: none!important;
+  background-color:#B1F2EA;
+  color: #fff;
+  box-shadow: none!important;
+  outline: 0 none;
+}
+
+textarea:focus, input:focus, .uneditable-input:focus {
+  box-shadow: 0px!important;
+  border-bottom: 1px dotted #ccc!important;
+  outline: 0 none;
+}
+
+.meal-form {
+  display: block!important;
+}
+
+
+.selected h2 {
+  border-left: 1px solid #454545;
+  padding: 10px;
+  width: 250px;
+
+}
+
+#edit {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.day {
+
+  max-width: 300px;
+  margin-bottom: 15px;
+  display:inline-block!important;
+}
