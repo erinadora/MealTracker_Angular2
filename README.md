@@ -12,20 +12,10 @@ This meal tracker app is made with Angular 2 and is intended to  allow the user 
 
 1. Clone this repository
 2. Navigate to the root directory of the project folder. Run the following commands:
-<<<<<<< HEAD
 * $ npm install
 * $ bower install
 * $ gulp buid
 * $ gulp serve
-=======
-$ npm install bower -g
-$ bower init
-$ bower install bootstrap --save
-$ npm install
-$ npm install gulp
-$ gulp bower
-$ gulp serve
->>>>>>> 469f1ff84cd8bd0353b012ac351e82cf859a320b
 
 ## Technologies Used
 
