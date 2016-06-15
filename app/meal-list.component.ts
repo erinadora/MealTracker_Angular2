@@ -22,11 +22,10 @@ import {HealthyPipe} from './healthy.pipe';
   <meal-display *ngFor="#currentMeal of mealList | healthy:filterHealthy:selectedMeal"
   (click)="mealClicked(currentMeal)"
   [class.selected]= "currentMeal === selectedMeal"
-  [meal]="currentMeal" (click)="mealClicked()">
+  [meal]="currentMeal">
   </meal-display>
 
-  <edit-meal-details *ngIf="selectedMeal"
-  [meal]="selectedMeal">
+  <edit-meal-details *ngIf="selectedMeal" [meal]="selectedMeal">
   </edit-meal-details>
   <new-meal (onSubmitNewMeal)="createMeal($event)"></new-meal>
   `
